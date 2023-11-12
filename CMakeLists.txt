@@ -3,4 +3,6 @@ project(c_polynomials C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(c_polynomials main.c)
+add_executable(c_polynomials main.c
+        polynomial.c
+        polynomial.h)
